@@ -38,7 +38,7 @@
     align-items: center;
     max-width: 1228px;
     margin: 0 auto;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
 }
 
@@ -46,6 +46,7 @@
     align-items: center;
     gap: .70rem;
 }
+
 
 .nav-brand-container img {
     height: 100%;
@@ -80,4 +81,59 @@
 
 }
 
+.hambager-nav {
+    display: none;
+}
+
 /* banner style */
+
+.banner-container {
+    max-width: 1228px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 1px solid saddlebrown; */
+
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.banner-img-container img {
+    width: 100%;
+}
+
+.banner-detais {
+    font-size: 1.25rem;
+}
+
+.banner-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: .8rem 3rem;
+    border-radius: .5rem;
+    font-size: 1.25rem;
+}
+
+
+/* ------------------ */
+/* ------------------ */
+/* ------------------ */
+
+/* for mobible device */
+
+@media screen and (max-width:576px) {
+
+    .nav-brand-container h3,
+    .ul-container,
+    .nav-button {
+        display: none;
+    }
+
+    .hambager-nav {
+        display: block;
+    }
+}
