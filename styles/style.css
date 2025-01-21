@@ -7,10 +7,29 @@
     font-style: normal;
 }
 
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 /* common style */
 
 .display-flex {
     display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.common-title {
+    font-size: 2.87rem;
+}
+
+.common-btn {
+    border: none;
+    background: none;
 }
 
 .text-primary {
@@ -36,7 +55,7 @@
 .nav-container {
     justify-content: space-between;
     align-items: center;
-    max-width: 1228px;
+    max-width: 1150px;
     margin: 0 auto;
     /* border: 1px solid green; */
 
@@ -85,10 +104,12 @@
     display: none;
 }
 
+
+
 /* banner style */
 
 .banner-container {
-    max-width: 1228px;
+    max-width: 1150px;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -118,6 +139,80 @@
     font-size: 1.25rem;
 }
 
+/*---------
+ main style start 
+ -----------*/
+
+
+/* standard cariculam start */
+.standard-cariculam-section {
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+}
+
+.standard-cariculam-cantainer {
+    max-width: 1150px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+}
+
+
+
+.standard-title {
+    margin-top: 0px;
+    padding-top: 2.5rem;
+
+}
+
+.satandard-card-container {
+    gap: 5rem;
+    margin-top: 3.5rem;
+}
+
+.satandard-card {
+    /* border: 2px solid rebeccapurple; */
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+
+}
+
+#satandard-card-1 {
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+#satandard-card-2 {
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+#satandard-card-3 {
+    background: linear-gradient(180.00deg, rgb(255, 244, 220) 0.297%, rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+
+}
+
+.satandard-card h3 {
+    font-size: 1.5rem;
+}
+
+.satandard-card img {
+    height: 8rem;
+}
+
+.standard-arrow {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.arrow-contaner {
+    background-color: #FEA301;
+    color: white;
+    padding: 1rem 1.3rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+
+
 
 /* ------------------ */
 /* ------------------ */
@@ -133,7 +228,21 @@
         display: none;
     }
 
+    .nav-container {
+        border-bottom: 1px solid Orange;
+        padding-bottom: .75rem;
+    }
+
     .hambager-nav {
         display: block;
     }
+
+    .banner-section {
+        margin-top: 1rem;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
 }
