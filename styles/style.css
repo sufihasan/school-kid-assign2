@@ -233,6 +233,7 @@
     padding-bottom: 3rem;
     background-repeat: no-repeat;
     width: 100%;
+    margin-top: 4rem;
 
 }
 
@@ -314,7 +315,55 @@
 }
 
 
+/* footer style start */
+footer {
+    background-color: #01ACFD;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1150px;
+    margin: 0 auto;
+    gap: 2rem;
+    color: white;
+}
+
+.logo-barand-con {
+    gap: .8rem;
+    align-items: center;
+}
+
+.logo-barand-con img {
+
+    background-color: azure;
+
+}
+
+.footer-ul {
+    padding-left: 0px;
+}
+
+.footer-ul li {
+    margin-top: 1rem;
+}
+
+.footer-nav-a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.social-img {
+    margin-right: .5rem;
+}
+
+.footer-middle-con {
+    margin-left: 6rem;
+}
 
 
 /* ------------------ */
@@ -327,7 +376,8 @@
 
     .nav-brand-container h3,
     .ul-container,
-    .nav-button {
+    .nav-button,
+    .big-card {
         display: none;
     }
 
@@ -357,6 +407,33 @@
 
     .standard-arrow {
         display: none;
+    }
+
+    .right-card-continer {
+        width: 100%;
+    }
+
+    .right-card-info {
+        padding-right: 1rem;
+    }
+
+    .btn-view-all-con {
+        margin-top: 3rem;
+        /* margin-bottom: 2rem; */
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        padding: 0 1.5rem;
+    }
+
+    .footer-middle-con {
+        margin-left: 0;
+    }
+
+    footer {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 
 }
