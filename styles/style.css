@@ -245,4 +245,14 @@
         flex-direction: column-reverse;
     }
 
+    .satandard-card-container {
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+
+    .standard-arrow {
+        display: none;
+    }
+
 }
