@@ -7,11 +7,7 @@
     font-style: normal;
 }
 
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+
 
 /* common style */
 
@@ -50,6 +46,10 @@
     color: #5D58EF;
 }
 
+.text-dark {
+    color: #666666;
+}
+
 .bg-secondary {
     background-color: #01ACFD;
 }
@@ -71,7 +71,7 @@
     align-items: center;
     max-width: 1150px;
     margin: 0 auto;
-    /* border: 1px solid green; */
+
 
 }
 
@@ -127,7 +127,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    /* border: 1px solid saddlebrown; */
+
 
 }
 
@@ -168,7 +168,7 @@
 .standard-cariculam-cantainer {
     max-width: 1150px;
     margin: 0 auto;
-    /* border: 1px solid green; */
+
 }
 
 
@@ -185,7 +185,7 @@
 }
 
 .satandard-card {
-    /* border: 2px solid rebeccapurple; */
+
     padding: 3rem 2rem;
     border-radius: .5rem;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
@@ -245,7 +245,7 @@
 }
 
 .total-card-container {
-    /* justify-content: space-between; */
+
     gap: 2rem;
 
 }
@@ -279,7 +279,7 @@
 .rigth-card {
     border-radius: .5rem;
     background-color: white;
-    /* text-align: center; */
+
 }
 
 .rigth-card img {
@@ -297,10 +297,13 @@
 
 .right-card-info {
     padding-left: 1.2rem;
+    padding-right: 1rem;
     position: relative;
     top: -1.22rem;
 
 }
+
+
 
 .big-card-info {
     padding-left: 2rem;
@@ -339,7 +342,7 @@ footer {
 
 .logo-barand-con img {
 
-    background-color: azure;
+    height: 4rem;
 
 }
 
@@ -365,6 +368,11 @@ footer {
     margin-left: 6rem;
 }
 
+.marque-part {
+    padding: 1rem;
+    width: 80%;
+}
+
 
 /* ------------------ */
 /* ------------------ */
@@ -382,8 +390,8 @@ footer {
     }
 
     .nav-container {
-        border-bottom: 1px solid Orange;
-        padding-bottom: .75rem;
+        border: 1px solid Orange;
+        padding: .75rem .50rem;
     }
 
     .hambager-nav {
@@ -399,6 +407,11 @@ footer {
         text-align: center;
     }
 
+    .banner-title {
+        font-size: 2.5rem;
+
+    }
+
     .satandard-card-container {
         flex-direction: column;
         gap: 2rem;
@@ -407,6 +420,10 @@ footer {
 
     .standard-arrow {
         display: none;
+    }
+
+    .standard-title {
+        font-size: 2.3rem;
     }
 
     .right-card-continer {
